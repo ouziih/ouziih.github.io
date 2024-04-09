@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive</title>
+<link href="../css/exclusive.css" rel="stylesheet"> 
+</head>
+<body>
+
+    <header>
+        <div class ="barre-haut">
+            <p>Summer Sale for All Swim Suits And Free Express Delivery - OFF 50%! </p><h5>ShopNow</h5>
+            <div class="lang">    
+                <select id="langage" title="langue">
+                    <option value="fr">Français</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </div>
+        <div class ="navigation" >
+            <ul>
+                <li><a href="" class="exclusive"><strong>Exclusive</strong></a></li>
+                <li><a href="" class="home">Home</a></li>
+                <li><a href="" class="contact">Contact</a></li>
+                <li><a href="" class="about">About</a></li>
+                <li><a href="" class="sign">Sign Up</a></li>
+                <li><form action="/rechercher" method="GET">
+                    <label for="search"></label>
+                    <input type="text" id="search" name="q" placeholder="Entrez votre recherche ici">
+                    </form>
+                </li>
+                <li><a href="" class="logo-panier"><img src="../images/logo-panier.png" alt="logo-panier"></a></li>
+                <li><a href="" class="logo-coeur"><img src="../images/logo-coeur.png" alt="logo-coeur"></a></li>
+                <li><div class="container"><a href="" class="logo-user"><img src="../images/logo-user-blanc.png" alt="logo-user-blanc"></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="corps">
+        <div class="billing-details">
+            <h2>Billing Details</h2>
+            <form>
+                <div class="form-group">
+                    <label for="first-name">First Name*</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="company-name">Company Name</label>
+                    <input type="text" id="company-name" name="company-name">
+                </div>
+                <div class="form-group">
+                    <label for="street-address">Street Address*</label>
+                    <input type="text" id="street-address" name="street-address" required>
+                </div>
+                <div class="form-group">
+                    <label for="optional-address">Apartment, floor, etc. (optional)</label>
+                    <input type="text" id="optional-address" name="optional-address">
+                </div>
+                <div class="form-group">
+                    <label for="city">Town/City*</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number*</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email1">Email Address*</label>
+                    <input type="email1" id="email1" name="email1" required>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="save-info" name="save-info">
+                    <label for="save-info">Save this information for faster check-out next time</label>
+                </div>
+                <!--<button type="submit">Submit</button>-->
+            </form>
+        </div>
+
+        <div class="cart-summary">
+            <div class="product">
+                <img src="../images/Monitor-Cart-Small.png" alt=""><h6>LCD Monitor</h6>
+                <span>$650</span>
+            </div>
+            <div class="product">
+                <img src="../images/Gamepad-Cart-Small.png" alt="">
+                <h6>H1 Gamepad</h6>
+                <span>$1100</span>
+            </div>
+            <div class="subtotal">
+                <span>Subtotal:</span>
+                <span>$1750</span>
+            </div>
+            <div class="shipping">
+                <span>Shipping:</span>
+                <span>Free</span>
+            </div>
+            <div class="total">
+                <span>Total:</span>
+                <span>$1750</span>
+            </div>
+            <div class="payment-options">
+                <h2>Payment</h2>
+                <label for="bank">Bank</label>
+                <input type="radio" id="bank" name="payment" checked>
+                <label for="cash">Cash on delivery</label>
+                <input type="radio" id="cash" name="payment">
+            </div>
+            <div class="coupon">
+                <input type="text" placeholder="Coupon-Code">
+                <button>Apply Coupon</button>
+            </div>
+            <button class="place-order-btn">Place Order</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <div><h3>Exclusive </h3><br> <br><p>Subscribe <br> <br>Get 10% your first order <br></p><label for="email">-</label>
+            <textarea id="email" name="email" cols="23" rows="2">Enter your email</textarea></div>
+        <div><h5>Support</h5><br> <br><p>111 Bijoy sarani, Dhaka,<br> <br> DH 1515, Bangladesh <br> <br> exclusice@gmail.com <br> <br> +88015-88888-9999</p></div>
+        <div><h5>Account</h5><br> <br><p>My Account <br> <br> Login/Register <br> <br>Cart <br> <br> Wishlist <br> <br> Shop</p></div>
+        <div><h5>Quick Link</h5> <br> <br><p>Privacy Police <br> <br> Terms Of Use <br> <br> FAQ <br> <br> Contact</div>
+        <div><h5>Dowload App</h5> <br> <br> <img src="../images/Frame 742.png" alt=""></div>
+    </footer>
+
+</body>
+</html>

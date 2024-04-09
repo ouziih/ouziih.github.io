@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+<link href="../css/cart.css" rel="stylesheet"> 
+</head>
+<body>
+
+    <header>
+        <div class ="barre-haut">
+            <p>Summer Sale for All Swim Suits And Free Express Delivery - OFF 50%! </p><h5>ShopNow</h5>
+            <div class="lang">    
+                <select id="langage" title="langue">
+                    <option value="fr">Français</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </div>
+        <div class ="navigation" >
+            <ul>
+                <li><a href="" class="exclusive"><strong>Exclusive</strong></a></li>
+                <li><a href="" class="home">Home</a></li>
+                <li><a href="" class="contact">Contact</a></li>
+                <li><a href="" class="about">About</a></li>
+                <li><a href="" class="sign">Sign Up</a></li>
+                <li><form action="/rechercher" method="GET">
+                    <label for="search"></label>
+                    <input type="text" id="search" name="q" placeholder="Entrez votre recherche ici">
+                    </form>
+                </li>
+                <li><a href="" class="logo-panier"><img src="../images/logo-panier.png" alt="logo-panier"></a></li>
+                <li><a href="" class="logo-coeur"><img src="../images/logo-coeur.png" alt="logo-coeur"></a></li>
+                <li><div class="container"><a href="" class="logo-user"><img src="../images/logo-user-blanc.png" alt="logo-user-blanc"></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="partie1">
+        <div>
+            <h5>Product</h5><h5>Price</h5><h5>Quantity</h5><h5>Subtotal</h5>
+        </div>
+        <div>
+            <h5><img src="../images/Monitor-Cart-Small.png" alt=""> LCD Monitor</h5>
+            <h5>$587</h5>
+            <h5>
+                <select id="menu-deroulant">
+                    <option value="option1">1</option>
+                    <option value="option2">2</option>
+                    <option value="option3">3</option>
+                </select>
+            </h5>
+            <h5>$587</h5>
+        </div>
+        <div>
+            <h5>
+                <img src="../images/Gamepad-Cart-Small.png" alt=""> H1 Gamepad</h5>
+            <h5>$587</h5>
+            <h5>
+                <select id="menu-deroulant">
+                    <option value="option1">1</option>
+                    <option value="option2">2</option>
+                    <option value="option3">3</option>
+                </select>
+            </h5>
+            <h5>$587</h5>
+        </div>
+    </div>
+    
+    <div class="partie2">
+        <div>Return To Shop</div>
+        <div>Update Cart</div>
+    </div>
+    
+    <div class="partie3">
+        <div class="form1">
+            <form class="formulaire">
+                <input type="text" placeholder="Coupon Code">
+                <button type="submit">Apply Coupon</button>
+            </form>
+        </div>
+        <div class="cart-summary">
+            <h2>Cart Total</h2>
+            <div class="subtotal">
+                <span>Subtotal:</span>
+                <span>$1750</span>
+            </div>
+            <div class="shipping">
+                <span>Shipping:</span>
+                <span>Free</span>
+            </div>
+            <div class="total">
+                <span>Total:</span>
+                <span>$1750</span>
+            </div>
+            <button class="checkout-btn">Proceed to checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <div><h3>Exclusive </h3><br> <br><p>Subscribe <br> <br>Get 10% your first order <br></p><label for="email">-</label>
+            <textarea id="email" name="email" cols="23" rows="2">Enter your email</textarea></div>
+        <div><h5>Support</h5><br> <br><p>111 Bijoy sarani, Dhaka,<br> <br> DH 1515, Bangladesh <br> <br> exclusice@gmail.com <br> <br> +88015-88888-9999</p></div>
+        <div><h5>Account</h5><br> <br><p>My Account <br> <br> Login/Register <br> <br>Cart <br> <br> Wishlist <br> <br> Shop</p></div>
+        <div><h5>Quick Link</h5> <br> <br><p>Privacy Police <br> <br> Terms Of Use <br> <br> FAQ <br> <br> Contact</div>
+        <div><h5>Dowload App</h5> <br> <br> <img src="../images/Frame 742.png" alt=""></div>
+    </footer>
+
+</body>
+</html>
