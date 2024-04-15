@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 100%) {
+    .container {
+        width: 100%;
+    }
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    }
+
+.barre-haut{
+    display: flex;
+    background-color:black;
+    justify-content:center;
+    color: white;
+    font-family: cursive;
+    font-size: 75%;
+    padding:0.5% ;
+}
+
+.barre-haut p{
+    opacity: 0.75;
+}
+
+.barre-haut h5{
+    font-size: 100%;
+    margin-left: 1%;
+    text-decoration: underline;
+}
+
+#langage{
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.lang{
+    position: relative;
+    left: 292px;
+}
+
+.navigation{
+    display:inline-flexbox;
+    padding: none;
+    border-bottom: 1%;
+    border-color: rgb(166, 166, 166);
+    border-bottom-style:solid;
+}
+
+.navigation ul{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation ul li a:hover,
+.navigation ul li a:focus,
+.navigation ul li a:active{
+    border-bottom: 1px;
+    border-bottom-color: black;
+    border-bottom: groove;
+    
+}
+
+.navigation ul li a img{
+    width: 30px;
+    height: auto;
+}
+
+.exclusive{
+    position: relative;
+    left: 135px;
+    font-size:larger;
+}
+
+
+
+.home{
+    position: relative;
+    left:220px;
+}
+
+.contact{
+    position: relative;
+    left: 160px;
+}
+
+.about{
+    position: relative;
+    left:100px;
+}
+
+.sign{
+    position:relative;
+    left:35px;
+}
+
+#search{
+    position: relative;
+    left: 90px;
+    top: -2px;
+    border: none;
+    background-color: rgb(232, 231, 231);
+    padding: 3%;
+    width: auto;
+}
+
+.logo-panier{
+    position: relative;
+    right:-65px;
+    top:-3px;
+}
+
+.logo-coeur{
+    position: relative;
+    right: 115px;
+    top:-1px;
+}
+
+.logo-user{
+    position: relative;
+    right: 180px;
+    top:-5px;
+}
+
+footer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    font-family: sans-serif;
+    justify-items: center;
+    padding: 5%;
+}
+
+#email{
+    background-color: transparent;
+    color: rgb(156, 156, 156);
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 2px;
+    border-color: white;
+    margin-top:15%;
+    border:50%;
+}
+
+.corps{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 13%;
+    margin-right: 13%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+.partie1{
+    display: grid;
+    grid-template-rows: 2fr;
+    padding:10%;
+    gap: 10px;
+    box-shadow: 1px 1px 5px 5px rgba(245, 244, 244, 0.673);
+}
+
+.partie1 > div {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.header-container {
+    display: flex; /* Active Flexbox pour l'alignement horizontal */
+    align-items: center; /* Centre les éléments verticalement */
+    gap: 10px; 
+}
+
+.partie2{
+    box-shadow: 1px 1px 5px 5px rgba(245, 244, 244, 0.673);
+    padding:3%;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-rows: 3fr;
+    gap: 10px;
+}
+
+.contact-form div{
+    display: flex;
+}
+
+.l1{
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.l2{
+    padding: 1%;
+}
+
+.l2 div{
+    width: 100%;
+    height: 230%;
+    border: 0 solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.l3{
+    margin-top:15%;
+    padding: 1%;
+    justify-content: flex-end;
+}
+
+input[type="text"],
+input[type="email1"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 0 solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #e8e8e8f0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(247, 58, 58);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color:rgb(255, 58, 58);
+}
+
+footer div h3:hover, footer div p:hover, footer div h5:hover{
+    color: rgb(247, 58, 58);
+    cursor: pointer;
+}
+
+
+

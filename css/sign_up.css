@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 100%) {
+    .container {
+        width: 100%;
+    }
+
+}
+
+.a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.barre-haut{
+    display: flex;
+    background-color:black;
+    justify-content:center;
+    color: white;
+    font-size: 75%;
+    padding:0.5% ;
+}
+
+.barre-haut p{
+    opacity: 0.75;
+}
+
+.barre-haut h4{
+    font-size: 100%;
+    margin-left: 1%;
+    text-decoration: underline;
+}
+
+#langage{
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.lang{
+    position: relative;
+    left: 292px;
+}
+
+.navigation{
+    display:inline-flexbox;
+    padding: none;
+    border-bottom: 1%;
+    border-color: rgb(166, 166, 166);
+    border-bottom-style:solid;
+}
+
+.navigation ul{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation ul li a:hover,
+.navigation ul li a:focus,
+.navigation ul li a:active{
+    border-bottom: 1px;
+    border-bottom-color: black;
+    border-bottom: groove;
+    
+}
+
+.navigation ul li a img{
+    width: 20px;
+    height: 20px;
+}
+
+.exclusive{
+    position: relative;
+    left: 135px;
+    font-size:larger;
+}
+
+
+.home{
+    position: relative;
+    left:220px;
+}
+
+.contact{
+    position: relative;
+    left: 160px;
+}
+
+.about{
+    position: relative;
+    left:100px;
+}
+
+.sign{
+    position:relative;
+    left:35px;
+}
+
+#search{
+    position: relative;
+    left:-40%;
+    top: -13px;
+    border: none;
+    background-color: rgb(232, 231, 231);
+    padding: 3.5%;
+    width:120%;
+}
+
+.logo-loop{
+    background-color: transparent;
+    position: relative;
+    right:210px;
+    top:1px;
+}
+
+.corps{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.img-log img{
+    max-width: 63%;
+    height: auto;
+}
+
+
+
+footer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    justify-items: center;
+    padding: 5%;
+}
+
+#email{
+    background-color: transparent;
+    color: rgb(156, 156, 156);
+    text-align: center;
+    border-radius: 2px;
+    border-color: white;
+    margin-top:15%;
+    border:50%;
+}
+
+
+form {
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom:1%;
+    position: relative;
+    top: 32px;
+    left: 5px;
+    font-size: smaller;
+    color: #959393;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 3%;
+    border-top:5px;
+    border-left: 5px;
+    border-right: 5px;
+    border-color: #959393;
+}
+
+button[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #dd4b39;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+
+h2{
+    margin-bottom:1%;
+    margin-top: 20%;
+}
+
+.alredy{
+    font-size: smaller;
+    margin-top: 7%;
+}
+
+.alredy a{
+    text-decoration: none;
+    color: #dd4b39;
+    margin-left:15%;
+}footer div h3:hover, footer div p:hover, footer div h5:hover{
+    color: rgb(247, 58, 58);
+    cursor: pointer;
+}

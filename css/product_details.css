@@ -1,0 +1,416 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 100%) {
+    .container {
+        width: 100%;
+    }
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    }
+
+.barre-haut{
+    display: flex;
+    background-color:black;
+    justify-content:center;
+    color: white;
+    font-family: cursive;
+    font-size: 75%;
+    padding:0.5% ;
+}
+
+.barre-haut p{
+    opacity: 0.75;
+}
+
+.barre-haut h5{
+    font-size: 100%;
+    margin-left: 1%;
+    text-decoration: underline;
+}
+
+#langage{
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.lang{
+    position: relative;
+    left: 292px;
+}
+
+.navigation{
+    display:inline-flexbox;
+    padding: none;
+    border-bottom: 1%;
+    border-color: rgb(166, 166, 166);
+    border-bottom-style:solid;
+}
+
+.navigation ul{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.navigation ul li a:hover,
+.navigation ul li a:focus,
+.navigation ul li a:active{
+    border-bottom: 1px;
+    border-bottom-color: black;
+    border-bottom: groove;
+    
+}
+
+
+.navigation ul li a img{
+    width: 30px;
+    height: auto;
+}
+
+.exclusive{
+    position: relative;
+    left: 135px;
+    font-size:larger;
+}
+
+
+
+.home{
+    position: relative;
+    left:220px;
+}
+
+.contact{
+    position: relative;
+    left: 160px;
+}
+
+.about{
+    position: relative;
+    left:100px;
+}
+
+.sign{
+    position:relative;
+    left:35px;
+}
+
+#search{
+    position: relative;
+    left: 90px;
+    top: -2px;
+    border: none;
+    background-color: rgb(232, 231, 231);
+    padding: 3%;
+    width: auto;
+}
+
+.logo-panier{
+    position: relative;
+    right:-65px;
+    top:-3px;
+}
+
+.logo-coeur{
+    position: relative;
+    right: 115px;
+    top:-1px;
+}
+
+.logo-user{
+    position: relative;
+    right: 180px;
+    top:-5px;
+}
+
+footer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    font-family: sans-serif;
+    justify-items: center;
+    padding: 5%;
+}
+
+#email{
+    background-color: transparent;
+    color: rgb(156, 156, 156);
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 2px;
+    border-color: white;
+    margin-top:15%;
+    border:50%;
+}
+
+.ligne1{
+    margin-top: 5%;
+    margin-bottom:5%;
+    margin-left: 13%;
+    margin-right: 13%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap: 5px;
+}
+
+.box1{
+    display: grid;
+    grid-template-rows: 4fr;
+    gap: 5px;
+    box-sizing: border-box;
+}
+
+.box2{
+    box-sizing: border-box;
+}
+
+.box3{
+    margin-left: 13%;
+}
+
+.box3 h2{
+    margin-bottom: 5%;
+}
+
+.rating {
+    font-size: 24px;
+    margin-bottom:5% ;
+}
+
+.rating input[type="radio"] {
+    display: none; 
+}
+
+.rating label {
+    color: gray;
+    cursor: pointer;
+}
+
+.rating label p{
+    color: gray;
+    font-size: 25%;
+}
+.rating input[type="radio"]:checked + label {
+    color: gold;
+}
+
+.trait{
+    border: 1px;
+    border-color: rgb(168, 168, 168);
+    border-style: groove;
+    margin-top: 10%;
+}
+
+.color{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 8fr;
+    margin-top: 2%;
+    align-items: center;
+    align-content: center;
+    margin-top: 7%;
+}
+
+.bleu{
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.rouge{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+
+}
+
+.bleu:hover, .rouge:hover{
+    border-color: black;
+    border-style: groove;
+    cursor: pointer;
+}
+
+.size{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 3fr;
+    margin-top:7%  ;
+    gap: 7px;
+    align-items: center;
+}
+
+.size div{
+    border: 1px;
+    border-color: black;
+    border-style: groove;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 3px;
+    padding-bottom:5px;
+    
+}
+
+.size div:hover{
+    color: white;
+    background-color: rgb(247, 58, 58);
+    cursor: pointer;
+}
+
+.qte{
+    display: grid;
+    grid-template-columns:2fr 2fr 1fr;
+    gap: 10px;
+    margin-top: 7%;
+    justify-content: space-between;
+}
+
+.quantity-counter {
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+.increment,
+.decrement {
+    background-color: transparent;
+    border:1px;
+    border-color: black;
+    border-style: groove;
+    cursor: pointer;
+    padding: 6px 10px;
+}
+
+.increment:hover,
+.decrement:hover {
+    background-color:rgb(247, 58, 58);
+    color: #fff;
+}
+
+.buy-now {
+    width: 75%;
+    padding: 7px;
+    background-color: rgb(247, 58, 58);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.buy-now:hover {
+    background-color: rgb(205, 47, 47);
+}
+
+.qte img{
+    width:50%;
+    height: auto;
+}
+
+.qte img:hover{
+    color: white;
+    background-color: rgb(247, 58, 58);
+}
+
+.deliv{
+    display: grid;
+    grid-template-rows: 2fr;
+    margin-top: 6%;
+}
+
+
+.haut, .bas{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    justify-content:center;
+    align-items: center;
+    border: 1px;
+    border-style: groove;
+    border-color: gray;
+    padding: 5%;
+}
+
+.haut div, .bas div{
+    display: grid;
+    grid-template-rows: 2fr;
+}
+
+.haut p, .bas p{
+    font-size: 75%;
+}
+
+.ligne2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 5%;
+}
+
+.ligne2 div img{
+    width: 270px;
+    height: 250px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: gainsboro;
+    margin-bottom: 1%;
+ }
+
+ .ligne2 div{
+    margin-bottom: 1%;
+    font-family: sans-serif;
+}
+
+.ligne2 div h4{
+    margin-bottom: 1%;
+}
+
+.ligne2 div p{
+    margin-bottom: 1%;
+    color:rgb(247, 58, 58) ;
+}
+
+.p2-l1-b1{
+    display:flex;
+    background-color:  rgb(247, 58, 58);
+    border-radius: 3px;
+    width:1.5%;    
+    color: rgb(247, 58, 58);
+    margin-bottom:2%;
+    margin-left: 13%;
+}
+
+.p2-l1-b1 h4{
+    position: relative;
+    margin-left:140%;
+    font-weight: bold;
+}
+
+footer div h3:hover, footer div p:hover, footer div h5:hover{
+    color: rgb(247, 58, 58);
+    cursor: pointer;
+}
